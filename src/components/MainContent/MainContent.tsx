@@ -36,6 +36,17 @@ const jobs = [
     title: "株式会社njoyのHP制作",
     text: "株式会社njoyのHP制作を致しました。",
   },
+  {
+    imgObj: {
+      path: "/images/top/kotodama.jpg",
+      width: 1000,
+      height: 1000,
+      alt: "",
+    },
+    path: "https://kotodama-psi.vercel.app/quiz/kotodama",
+    title: "個人プロジェクト「ことだま生成器」を制作",
+    text: "個人プロジェクトとして「ことだま生成器」を制作しました。名前とキーワードを入れると名言を作成してくれます。",
+  },
 ];
 
 export const MainContent = ({ className }: Props) => {
