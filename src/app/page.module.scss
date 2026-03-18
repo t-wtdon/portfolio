@@ -1,0 +1,25 @@
+.layout {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 50%;
+  height: 100vh;
+}
+
+.content {
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+
+  .content {
+    width: 100%;
+  }
+}
