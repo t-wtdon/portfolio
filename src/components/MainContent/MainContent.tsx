@@ -38,7 +38,7 @@ const jobs = [
   },
   {
     imgObj: {
-      path: "/images/top/kotodama.jpg",
+      path: "/images/top/genki.jpg",
       width: 1000,
       height: 1000,
       alt: "",
