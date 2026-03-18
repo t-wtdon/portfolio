@@ -43,6 +43,18 @@ const jobs = [
       height: 1000,
       alt: "",
     },
+    path: "https://n-joy.jp/genki-station",
+    title:
+      "株式会社njoyの事業「げんき訪問看護ステーション」のサービスサイトを制作",
+    text: "株式会社njoyの訪問介護事業の「げんき訪問看護ステーション」のサービスサイトを制作しました。",
+  },
+  {
+    imgObj: {
+      path: "/images/top/kotodama.jpg",
+      width: 1000,
+      height: 1000,
+      alt: "",
+    },
     path: "https://kotodama-psi.vercel.app/quiz/kotodama",
     title: "個人プロジェクト「ことだま生成器」を制作",
     text: "個人プロジェクトとして「ことだま生成器」を制作しました。名前とキーワードを入れると名言を作成してくれます。",
