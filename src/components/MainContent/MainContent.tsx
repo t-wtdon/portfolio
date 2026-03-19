@@ -62,6 +62,18 @@ export const MainContent = ({ className }: Props) => {
   return (
     <main className={className}>
       <div className={styles.main}>
+        <section className={styles.firstSection}>
+          <h2 className={styles.title}>
+            ダイナソくん
+            <span className={styles.subTitle}>- Frontend Developer</span>
+          </h2>
+
+          <p className={styles.description}>
+            シンプルでわかりやすい Webサイトを制作しています。
+            使いやすさと見やすさを大切に、
+            誰でも直感的に使えるデザインを心がけています。
+          </p>
+        </section>
         <section className={styles.section} id="about">
           <h2 className={styles.title}>私について</h2>
           <p>

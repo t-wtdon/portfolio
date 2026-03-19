@@ -16,10 +16,27 @@
   }
 }
 
+.firstSection {
+  display: none;
+
+  @media (max-width: 768px) {
+    display: block;
+  }
+}
+
 .title {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 16px;
+}
+.subTitle {
+  display: block;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.description {
+  font-size: 14px;
 }
 
 .block {
