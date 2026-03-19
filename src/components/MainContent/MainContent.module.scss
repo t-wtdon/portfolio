@@ -61,6 +61,7 @@
 }
 .link {
   display: flex;
+  align-items: center;
   gap: 20px;
   width: 100%;
   padding: 20px;
@@ -84,12 +85,12 @@
   padding-top: 0;
 }
 .jobTitle {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
-  margin-bottom: 8px;
-}
-.jobText {
-  font-size: 14px;
+
+  @media (max-width: 768px) {
+    font-size: 14px;
+  }
 }
 
 .textLink {

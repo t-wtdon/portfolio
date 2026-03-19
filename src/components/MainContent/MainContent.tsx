@@ -34,7 +34,6 @@ const jobs = [
     },
     path: "https://n-joy.jp/",
     title: "株式会社njoyのHP制作",
-    text: "株式会社njoyのHP制作を致しました。",
   },
   {
     imgObj: {
@@ -46,7 +45,6 @@ const jobs = [
     path: "https://n-joy.jp/genki-station",
     title:
       "株式会社njoyの事業「げんき訪問看護ステーション」のサービスサイトを制作",
-    text: "株式会社njoyの訪問介護事業の「げんき訪問看護ステーション」のサービスサイトを制作しました。",
   },
   {
     imgObj: {
@@ -57,7 +55,6 @@ const jobs = [
     },
     path: "https://kotodama-psi.vercel.app/quiz/kotodama",
     title: "個人プロジェクト「ことだま生成器」を制作",
-    text: "個人プロジェクトとして「ことだま生成器」を制作しました。名前とキーワードを入れると名言を作成してくれます。",
   },
 ];
 
@@ -135,7 +132,6 @@ export const MainContent = ({ className }: Props) => {
                     />
                     <div className={styles.jobData}>
                       <p className={styles.jobTitle}>{job.title}</p>
-                      <p className={styles.jobText}>{job.text}</p>
                     </div>
                   </a>
                 </li>
